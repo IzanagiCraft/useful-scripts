@@ -1,0 +1,20 @@
+{
+    "arrowParens": "always",
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "printWidth": 140,
+    "semi": true,
+    "tabWidth": 4,
+    "trailingComma": "none",
+    "plugins": ["prettier-plugin-sh"],
+    "overrides": [
+        {
+            "files": ["*.sh"],
+            "options": {
+                "semi": true,
+                "tabWidth": 4
+            }
+        }
+    ]
+}

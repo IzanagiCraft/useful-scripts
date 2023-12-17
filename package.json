@@ -1,0 +1,38 @@
+{
+    "name": "useful-scripts",
+    "version": "1.0.0",
+    "description": "Useful bash scripts for various actions and tasks.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "npx prettier --write .",
+        "prettier": "npx prettier --write .",
+        "licenseCheck": "license-check-and-add check -f ./licenseConfig.json",
+        "licenseFormat": "license-check-and-add add -f ./licenseConfig.json",
+        "build": "node index",
+        "buildMin": "node index --minify"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/IzanagiCraft/useful-scripts.git"
+    },
+    "keywords": [
+        "bash",
+        "scripts",
+        "cli-tools",
+        "cli",
+        "batch"
+    ],
+    "author": "sanguine6660",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/IzanagiCraft/useful-scripts/issues"
+    },
+    "homepage": "https://github.com/IzanagiCraft/useful-scripts#readme",
+    "devDependencies": {
+        "bash-minifier": "^0.1.3",
+        "license-check-and-add": "^4.0.5",
+        "prettier": "^3.1.1",
+        "prettier-plugin-sh": "^0.13.1"
+    }
+}
